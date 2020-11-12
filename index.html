@@ -544,6 +544,13 @@ button {
   music:"di/10.mp3",
   text:"Happy Bhai Dauj."
   }, 
+  
+  {
+  id:11,
+  image:"90.jpg",
+  music:"di/4.mp3",
+  text:"Thank you."
+  }, 
 
  ];
 
@@ -590,7 +597,12 @@ button {
       $(".bottom").addClass('bg5');
      }
      if(index == 10) {
-      $(".next-btn").hide();
+      $(".front").removeClass("red");
+      $(".bottom").removeClass('bg4');
+      $(".bottom").addClass('bg5');;
+     }
+     if(index == 11) {
+      $(".next-btn").hide()
      }
    });
      
